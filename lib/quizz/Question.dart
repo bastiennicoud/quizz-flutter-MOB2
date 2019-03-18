@@ -19,4 +19,6 @@ class Question {
     hint: json['hint']
   );
 
+  bool isCorrectAnswer(String answer) => answers[correctAnswer] == answer;
+
 }
