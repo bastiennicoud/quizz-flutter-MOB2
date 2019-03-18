@@ -3,6 +3,8 @@ import 'package:test_flutter/quizz/providers/LocalProvider.dart';
 
 class Provider {
 
+  Provider();
+
   factory Provider.create(String type) {
     switch (type) {
       case "local":
